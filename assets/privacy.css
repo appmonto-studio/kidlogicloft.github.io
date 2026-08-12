@@ -29,11 +29,11 @@ body {
   gap: 6px;
   font-size: 13px;
   font-weight: 800;
-  color: #b09060;
+  color: #886c43;
   text-decoration: none;
   transition: color 0.15s;
 }
-.back-link:hover { color: #c0842a; }
+.back-link:hover { color: #966721; }
 
 /* ── Language switcher ── */
 .lang-switch {
@@ -45,16 +45,16 @@ body {
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #b09060;
+  color: #886c43;
   text-decoration: none;
   padding: 4px 9px;
   border-radius: 100px;
   transition: background 0.15s, color 0.15s;
 }
-.lang-switch a:hover { background: #fff3de; color: #c0842a; }
+.lang-switch a:hover { background: #fff3de; color: #966721; }
 .lang-switch a[aria-current="true"] {
   background: #fff;
-  color: #c0842a;
+  color: #966721;
   border: 1px solid #f0ddb8;
 }
 
@@ -77,14 +77,14 @@ body {
 .updated {
   font-size: 13px;
   font-weight: 700;
-  color: #b09060;
+  color: #886c43;
   margin-bottom: 28px;
 }
 
 .card h2 {
   font-size: 17px;
   font-weight: 800;
-  color: #c0842a;
+  color: #966721;
   margin: 28px 0 10px;
 }
 .card h2:first-of-type { margin-top: 0; }
@@ -106,7 +106,7 @@ body {
   margin-bottom: 4px;
 }
 .card a {
-  color: #c0842a;
+  color: #966721;
   font-weight: 700;
 }
 
@@ -122,7 +122,7 @@ body {
   flex-wrap: wrap;
   gap: 10px 20px;
 }
-.footer-copy { font-size: 12px; color: #b09060; }
+.footer-copy { font-size: 12px; color: #886c43; }
 .footer-links {
   display: flex;
   align-items: center;
@@ -131,7 +131,7 @@ body {
 }
 .footer-link {
   font-size: 13px;
-  color: #c0842a;
+  color: #966721;
   font-weight: 700;
   text-decoration: none;
 }
@@ -156,7 +156,7 @@ body {
   color: #6b5432;
 }
 .footer-studio-link {
-  color: #8a6a2e;
+  color: #966721;
   font-weight: 700;
   text-decoration: none;
 }
@@ -169,4 +169,4 @@ body {
   border-top: 1px solid #f0ddb8;
   color: #6b5432;
 }
-.card-note a { color: #8a6a2e; font-weight: 700; }
+.card-note a { color: #966721; font-weight: 700; }
