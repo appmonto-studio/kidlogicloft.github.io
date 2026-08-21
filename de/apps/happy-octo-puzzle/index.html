@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('kidlogic-theme')==='dark'?'dark':'light'}catch(_){document.documentElement.dataset.theme='light'}</script>
   <title>Happy Octo Puzzle — Kostenloses Puzzlespiel für Kinder | KidLogic Loft</title>
   <meta name="description" content="Happy Octo Puzzle ist ein kostenloses Puzzlespiel für Kinder von 3 bis 8 Jahren. Die Teile lassen sich einfach an die richtige Stelle ziehen, farbenfrohe Meeres-Illustrationen, ohne Werbung und ohne In-App-Käufe. Bei Google Play herunterladen." />
   <meta property="og:title" content="Happy Octo Puzzle — Kostenloses Puzzlespiel für Kinder" />
@@ -19,7 +20,7 @@
   <meta name="twitter:title" content="Happy Octo Puzzle — Kostenloses Puzzlespiel für Kinder" />
   <meta name="twitter:description" content="Einfache bunte Puzzles mit einem freundlichen Oktopus. Für Kinder von 3 bis 8 Jahren. Ohne Werbung, ohne In-App-Käufe." />
   <meta name="twitter:image" content="https://kidlogicloft.com/apps/happy-octo-puzzle/banner.png" />
-  <meta name="theme-color" content="#fff8ec" />
+  <meta name="theme-color" content="#FBF7EF" />
   <link rel="icon" type="image/png" href="../../../favicon.png" />
   <link rel="apple-touch-icon" href="../../../apple-touch-icon.png" />
   <link rel="canonical" href="https://kidlogicloft.com/de/apps/happy-octo-puzzle/" />
@@ -96,10 +97,7 @@
     }
   }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../../assets/app.css" />
+  <link rel="stylesheet" href="/assets/site.css" />
 </head>
 <body>
   <main class="page">
@@ -108,9 +106,10 @@
       <a class="back-link" href="../../">← KidLogic Loft</a>
       <nav class="lang-switch" aria-label="Sprache">
         <a href="../../../apps/happy-octo-puzzle/" hreflang="en" lang="en">EN</a>
-        <a href="../../../es/apps/happy-octo-puzzle/" hreflang="es" lang="es">ES</a>
         <a href="./" aria-current="true" hreflang="de" lang="de">DE</a>
+        <a href="../../../es/apps/happy-octo-puzzle/" hreflang="es" lang="es">ES</a>
       </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle data-label-dark="Dunkles Design verwenden" data-label-light="Helles Design verwenden" aria-label="Dunkles Design verwenden" aria-pressed="false"><svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg><svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 15.1A8.5 8.5 0 0 1 8.9 4a8.5 8.5 0 1 0 11.1 11.1Z"/></svg></button>
     </div>
 
     <!-- Hero -->
@@ -234,12 +233,15 @@
     <footer class="footer">
       <span class="footer-copy">© 2026 KidLogic Loft</span>
       <div class="footer-links">
+        <a class="footer-link" href="../../">Apps</a>
         <a class="footer-link" href="../../privacy/">Datenschutz</a>
+        <a class="footer-link" href="mailto:hello@kidlogicloft.com?subject=Support">Support</a>
         <a class="footer-link" href="mailto:hello@kidlogicloft.com">hello@kidlogicloft.com</a>
       </div>
       <p class="footer-studio">Eine Marke von <a class="footer-studio-link" href="https://appmonto.com" rel="noopener">Appmonto Studio</a> · <a class="footer-studio-link" href="https://appmonto.com/legal/" rel="noopener">Impressum</a></p>
     </footer>
 
   </main>
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
