@@ -14,6 +14,16 @@ python3 tools/generate_home.py
 App-detail and privacy pages remain hand-written, but use the same local
 `assets/site.css` and `assets/site.js` family shell.
 
+## App catalogue conventions
+
+Closer Look: Farm links directly to its Google Play listing from all three home
+pages, using the approved store icon and public app name rather than the former
+Cozy Meadow Farm working title. Keep availability and purchase terms consistent
+across EN, DE and ES in `tools/generate_home.py`. The farm is free to start with
+an optional one-time purchase for three extra stories, so studio-wide copy must
+not promise that every app has no in-app purchases. Happy Octo Puzzle retains
+its own app-specific purchase-free description.
+
 ## Privacy Policy:
 * [Privacy Policy](https://kidlogicloft.com/privacy/)
 
